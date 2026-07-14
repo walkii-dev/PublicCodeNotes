@@ -46,7 +46,7 @@ public class TrabalhoFinal {
                         System.out.println("Valor insuficiente para transferência.");
                     } else {
                         saldo -= valor;
-                        System.out.println("Novo Saldo: $" + saldo);
+                        System.out.println("Novo Saldo:  $" + saldo);
                     }
                     break;
                 case 0:
