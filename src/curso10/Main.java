@@ -34,13 +34,42 @@ public class Main {
 //        sms.enviar();
 //        push.enviar();
 
-Pix pix= new Pix(250);
-CartaoCredito credito = new CartaoCredito(250);
-BoletoBancario boleto= new BoletoBancario(250);
+//Pix pix= new Pix(250);
+//CartaoCredito credito = new CartaoCredito(250);
+//BoletoBancario boleto= new BoletoBancario(250);
+//
+//pix.confirmarPagamento();
+//boleto.confirmarPagamento();
+//credito.confirmarPagamento();
 
-pix.confirmarPagamento();
-boleto.confirmarPagamento();
-credito.confirmarPagamento();
+//Mensageria mensageria = new Mensageria();
+//mensageria.enviarMensagem("oi");
+//mensageria.enviarMensagem("Ellen","Te Amo!");
+//mensageria.enviarMensagem("Lucas","tá doido?",3);
+
+//        Reserva r = new Reserva();
+//        r.reservar();
+//        r.reservar("18/07/2026");
+//        r.reservar("16/08/2026",2);
+//        ReservaVIP rvip =new ReservaVIP();
+//        rvip.reservar();
+
+//        Relatorio rel = new Relatorio("Relato", "Esse é meu relato.");
+//        rel.imprimir();
+//
+//        OperacaoBancaria deposito = new Deposito(200);
+//        OperacaoBancaria saque = new Saque(5.00);
+//        deposito.executar();
+//        saque.executar();
+
+
+        Luz luz = new Luz();
+        ArCondicionado ar = new ArCondicionado();
+
+        luz.ligar();
+        luz.ligar();
+        luz.desligar();
+        ar.desligar();
 
 
 
