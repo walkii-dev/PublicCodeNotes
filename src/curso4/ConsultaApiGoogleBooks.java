@@ -16,9 +16,6 @@ public class ConsultaApiGoogleBooks {
         System.out.println(getApiResponse("Bleach"));
 
     }
-
-
-
     public static String getApiResponse(String search) {
         Properties properties = new Properties();
 
